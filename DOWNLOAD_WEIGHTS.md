@@ -14,7 +14,7 @@ sudo chmod +x ./get_yolo.sh
 ##### TensorFlow - MobileNetSSDv2
 ```
 cd multi-object-tracker
-cd ./pretrained_models/tensorflow_weights
+cd ./examples/pretrained_models/tensorflow_weights
 sudo chmod +x ./get_ssd_model.sh
 ./get_ssd_model.sh
 ```
@@ -22,7 +22,7 @@ sudo chmod +x ./get_ssd_model.sh
 ##### Caffemodel - MobileNetSSD
 ```
 cd multi-object-tracker
-cd ./pretrained_models/caffemodel_weights
+cd ./examples/pretrained_models/caffemodel_weights
 sudo chmod +x ./get_caffemodel.sh
 ./get_caffemodel.sh
 ```
